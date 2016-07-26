@@ -8,18 +8,22 @@
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>  
 </head>
 <body>
-  <script src="js/app.js"></script>
-  <header>
-    <h1>Grocery List</h1>
-  </header>
   <section class='main'>
-    <input type='text' class='new-item' placeholder='Add something...'>
-    <ul class='items'>
-        <li><input type='checkbox' class='item' name='item-1' /><label for='item-1'>Apples</label></li>
-        <li><input type='checkbox' class='item' name='item-2'/ ><label for='item-2'>Peanut butter</label></li>
-        <li><input type='checkbox' class='item' name='item-3'/ ><label for='item-3'>Chicken</label></li>
-        <li><input type='checkbox' class='item' name='item-4'/ ><label for='item-4'>Tea</label></li>
-    </ul>
+    <header>
+      <h1>Grocery List</h1>
+    </header>
+    <div class='main-body'>
+      <input type='text' class='new-item' placeholder='Add something...'>
+      <ul class='items'>
+          <li><label><input type='checkbox' class='item' />Apples</label> <div class='trash'></div></li>
+          <li><label><input type='checkbox' class='item' />Peanut butter</label> <div class='trash'></div></li>
+          <li><label><input type='checkbox' class='item' />Paper towels</label> <div class='trash'></div></li>
+          <li><label><input type='checkbox' class='item' />Chicken</label> <div class='trash'></div></li>
+      </ul>
+    </div>
   </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  
+<script src="js/app.js"></script>
+
 </body>
 </html>
