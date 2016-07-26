@@ -8,9 +8,22 @@ header {
   margin: -0.5em -0.5em 0 -0.5em;
 }
 
+body {
+    background-color: #ffdf80;
 
-.header-blur {
+}
 
+::-webkit-input-placeholder {
+  font-family: "Source Sans Pro", serif;
+}
+::-moz-placeholder {
+  font-family: "Source Sans Pro", serif;
+}
+:-ms-input-placeholder {
+  font-family: "Source Sans Pro", serif;
+}
+:-moz-placeholder {
+  font-family: "Source Sans Pro", serif;
 }
 
 h1 {
@@ -24,21 +37,26 @@ h1 {
 .main {
   margin: 1em auto 0 auto;
   width: 20em;
-  font-family: "EB Garamond", serif;
+  font-family: "Source Sans Pro", serif;
   font-size: 2rem;
 }
 
 .new-item {
   font-size: 2rem;
   width: 100%;
+  padding: 0 0 0.25rem 0.25rem;
+  font-family: "Source Sans Pro", serif;
 }
 
 .items {
   list-style: none;
   padding: 0;
-  margin: 0.5em 0 0 0;
+  margin: 0.5rem 0 0 0;
 }
 
 .item {
-  margin-right: 2em;
+  margin-right: 1.25rem;
+  vertical-align: top;
+  margin-top: 0.85rem;
+  font-size: x-large;
 }
