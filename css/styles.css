@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+  background-image: url('https://static.pexels.com/photos/5205/food-healthy-vegetables-potatoes-large.jpg');
+  height: 6em;
+  background-position: center;
+  color: white;
+  padding-bottom: 1em;
+  margin: -0.5em -0.5em 0 -0.5em;
+}
+
+
+.header-blur {
+
+}
+
+h1 {
+  font-family: "Clicker Script", sans-serif;
+  font-size: 5em;
+  margin: 0;
+  padding: 0;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}
+
+.main {
+  margin: 1em auto 0 auto;
+  width: 20em;
+  font-family: "EB Garamond", serif;
+  font-size: 2rem;
+}
+
+.new-item {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+}
+
+.item {
+  margin-right: 2em;
+}
