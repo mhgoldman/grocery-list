@@ -75,3 +75,7 @@ h1 {
   width: 1rem;
   display: inline-block;
  }
+
+ .trash:hover {
+  cursor: pointer;
+ }
